@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/linearlayout"
+    android:background="@color/def">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/r"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickR"
+        android:text="@string/Burgersi"
+        android:textColor="@color/knopkaText"
+        android:textSize="20sp"
+        app:backgroundTint="@color/knopka" />
+
+    <Button
+        android:id="@+id/y"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Hot"
+        android:textColor="@color/knopka"
+        android:textSize="20sp"
+        app:backgroundTint="#F8F0A5"
+        android:onClick="onClickY"/>
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Drink"
+        android:textColor="@color/knopkaText"
+        android:textSize="20sp"
+        app:backgroundTint="@color/knopka"
+        android:onClick="onClickG"/>
+
+</LinearLayout>
