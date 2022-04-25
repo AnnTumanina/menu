@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">МакХомякс</string>
+    <string name="Burgers">Бургерсы</string>
+    <string name="Hot">Горячее</string>
+    <string name="Drink">Напиточки</string>
+    <string name="Back">Вернуться</string>
+</resources>

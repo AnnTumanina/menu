@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/burgers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Меню"
+        android:textColor="@color/button"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/M"
+        android:layout_width="189dp"
+        android:layout_height="72dp"
+        android:onClick="onClickM"
+        android:text="Макчикен"
+        android:textColor="@color/button"
+        android:textColorHighlight="#9A5D02"
+        android:textColorHint="#9A5D02"
+        android:textColorLink="#9A5D02"
+        android:textSize="20sp"
+        app:backgroundTint="@color/buttonLight"></Button>
+
+    <Button
+        android:id="@+id/Df"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDf"
+        android:text="Двойной филе-о-фиш"
+        android:textColor="@color/buttonText"
+        android:textColorHighlight="#9A5D02"
+        android:textColorHint="#9A5D02"
+        android:textColorLink="#9A5D02"
+        android:textSize="20sp"
+        app:backgroundTint="@color/button"></Button>
+
+    <Button
+        android:id="@+id/Bt"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBt"
+        android:text="Бигтейсти 3 сыра"
+        android:textColor="@color/button"
+        android:textColorHighlight="#9A5D02"
+        android:textColorHint="#9A5D02"
+        android:textColorLink="#9A5D02"
+        android:textSize="20sp"
+        app:backgroundTint="@color/buttonLight"></Button>
+
+    <Button
+        android:id="@+id/Tch"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTch"
+        android:text="Тройной чизбургер"
+        android:textColor="@color/buttonText"
+        android:textColorHighlight="#9A5D02"
+        android:textColorHint="#9A5D02"
+        android:textColorLink="#9A5D02"
+        android:textSize="20sp"
+        app:backgroundTint="@color/button" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBack"
+        android:text="@string/Back"
+        android:textColor="#D8C35B"
+        android:textColorHighlight="#9A5D02"
+        android:textColorHint="#9A5D02"
+        android:textColorLink="#9A5D02"
+        android:textSize="16sp"
+        app:backgroundTint="#FFF280"></Button>
+</LinearLayout>
+

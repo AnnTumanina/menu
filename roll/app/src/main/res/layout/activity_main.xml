@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="169dp"
+        android:src="@drawable/rtr" />
+
+    <Button
+        android:id="@+id/burgers"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBurgers"
+        android:text="@string/Burgers"
+        android:textColor="@color/buttonText"
+        android:textColorHighlight="#9A5D02"
+        android:textColorHint="#9A5D02"
+        android:textColorLink="#9A5D02"
+        android:textSize="20sp"
+        app:backgroundTint="@color/button" />
+
+    <Button
+        android:id="@+id/hot"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickHot"
+        android:text="@string/Hot"
+        android:textColor="@color/button"
+        android:textColorHighlight="#9A5D02"
+        android:textColorHint="#9A5D02"
+        android:textColorLink="#9A5D02"
+        android:textSize="20sp"
+        app:backgroundTint="#F8F0A5" />
+
+    <Button
+        android:id="@+id/drinks"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDrinks"
+        android:text="@string/Drink"
+        android:textColor="@color/buttonText"
+        android:textColorHighlight="#9A5D02"
+        android:textColorHint="#9A5D02"
+        android:textColorLink="#9A5D02"
+        android:textSize="20sp"
+        app:backgroundTint="@color/button" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="169dp"
+        android:src="@drawable/trt" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
